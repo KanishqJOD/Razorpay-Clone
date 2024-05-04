@@ -1,7 +1,9 @@
 {
   "scripts": {
-    "start": "vite"
-  },
+    "start": "some-start-command",
+    "build": "npx tailwindcss build main.css -o output.css && some-other-build-command"
+  }
+  ,
   "devDependencies": {
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.21",
